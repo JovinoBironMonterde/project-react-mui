@@ -12,6 +12,7 @@ import Dashboard from "./components/scenes/dashboard/Dashboard";
 // import FAQ from "./components/scenes/dashboard/Faq";
 // import Geography from "./components/scenes/dashboard/Geography";
 // import Calendar from "./components/scenes/dashboard/Calendar";
+import Team from "./components/scenes/global/team";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -27,8 +28,8 @@ function App() {
             <Topbar />
             <Routes>
               <Route path="/" element={<Dashboard />} />
-              {/* <Route path="/Team" element={<Team />} />
-              <Route path="/Contacts" element={<Contacts />} />
+              <Route path="/Team" element={<Team />} />
+              {/* <Route path="/Contacts" element={<Contacts />} />
               <Route path="/Invoice" element={<Invoice />} />
               <Route path="/Form" element={<Form />} />
               <Route path="/Line" element={<Line />} />

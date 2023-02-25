@@ -66,6 +66,10 @@ const Sidebar = () =>{
 
     <Box sx={{width: "300px", marginLeft: !openClose ? '-300px' : '0', textAlign: "left", transition: '.5s'}}>
 
+      <Box sx={{width: "10px",  height: "20px"}}>
+         <img src="https://images.pexels.com/photos/7327174/pexels-photo-7327174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+      </Box>
+
         <IconButton sx={customStyle.iconContainer}>
            <HomeOutlinedIcon />
             <Typography sx={customStyle.itemText}>Home</Typography>
